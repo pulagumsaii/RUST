@@ -1,7 +1,0 @@
-fn main() {
-    let x: i32 = 100;
-    let y: f64 = x as f64; // Casting i32 to f64
-
-    println!("Integer x = {}", x);
-    println!("Float y (casted from x) = {}", y);
-}
