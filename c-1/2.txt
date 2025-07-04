@@ -1,0 +1,11 @@
+fn main() {
+    for i in 1..=5 {
+        let line = format!("{}", i.to_string().repeat(i));
+        println!("{}", line);
+
+        if i == 4 {
+            println!("Department of Computer Science and Engineering 2025-26");
+            println!("VISHNU INSTITUTE OF TECHNOLOGY Page 6");
+        }
+    }
+}
