@@ -1,0 +1,9 @@
+my_list = [10, 20, 30, 40, 50]
+my_iterator = iter(my_list)
+
+while True:
+    try:
+        item = next(my_iterator)
+        print(item)
+    except StopIteration:
+        break
