@@ -1,0 +1,14 @@
+fn main() {
+    let x = 10;
+    let ref_x = &x;
+
+    println!("Original value: {}", x);
+    println!("Borrowed reference: {}", ref_x);
+    println!("Dereferenced value: {}", *ref_x);
+
+    let mut y = 20;
+    let ref_mut_y = &mut y;
+    *ref_mut_y += 5;
+
+    println!("Modified value via mutable reference: {}", y);
+}

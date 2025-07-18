@@ -1,0 +1,15 @@
+fn main() {
+    let int_val: i32 = 42;
+    let float_val: f64 = int_val as f64;
+
+    let float_num: f64 = 3.14159;
+    let int_num: i32 = float_num as i32;
+
+    let char_val: char = 65 as u8 as char;
+
+    println!("Original integer: {}", int_val);
+    println!("Integer as float: {}", float_val);
+    println!("Original float: {}", float_num);
+    println!("Float as integer (truncated): {}", int_num);
+    println!("Integer 65 as char: {}", char_val);
+}
